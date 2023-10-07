@@ -20,8 +20,8 @@ namespace GetValueFromText
             int[] elements = txtAnalyzer.GetInformationArray();
             int result = txtAnalyzer.GetMax();
             int result1 = txtAnalyzer.GetMin();
-            int result2 = txtAnalyzer.GetCurrentElement(10);
-            int result3 = txtAnalyzer.FindElement(10);
+            int? result2 = txtAnalyzer.GetCurrentIndex(10);
+            int? result3 = txtAnalyzer.FindElement(10);
 
             Console.WriteLine(elements.ToString());
             Console.WriteLine(result);

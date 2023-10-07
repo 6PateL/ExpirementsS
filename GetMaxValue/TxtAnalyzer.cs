@@ -115,5 +115,10 @@ namespace GetValue
 
             throw new Exception("Element was not found"); 
         }
+
+        public string GetRawInformation()
+        {
+            return GetRawInformation().ToString(); 
+        }
     }
 }
