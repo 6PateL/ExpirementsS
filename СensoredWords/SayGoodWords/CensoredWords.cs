@@ -13,7 +13,7 @@ namespace SayGoodWords
 
         public CensoredWords()
         {
-            
+          
         }
 
         public void SetBadWords(string[] badWords)
@@ -33,7 +33,7 @@ namespace SayGoodWords
 
             for(int i = 0; i < text.Length; i++)
             {
-                currentWord.array[currentWord.currentSize] += text[i];
+                currentWord.array[currentWord.currentSize] = text[i];
                 currentWord.currentSize++; 
 
                 if (text[i] == ' ')
@@ -52,7 +52,7 @@ namespace SayGoodWords
                     if (words[i] == _badWords[j].ToCharArray())
                     {
                         words[i] = new char[] { '*' };
-                        text = new string(words[i]) + " ";
+                        text = new string(words[i]);
                     }
                 }
             }
