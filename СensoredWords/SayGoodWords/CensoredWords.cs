@@ -29,7 +29,7 @@ namespace SayGoodWords
         public string Analyze(string text)
         {
             List<char[]> words = new List<char[]>();    
-            DynamicArray currentWord = new DynamicArray(); 
+            DynamicArray currentWord = new DynamicArray();
 
             for(int i = 0; i < text.Length; i++)
             {

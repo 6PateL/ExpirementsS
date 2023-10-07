@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testingWhereTclassConstruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "СensoredWords", "СensoredWords\СensoredWords.csproj", "{750910E4-90FE-4A44-8FFB-7CD5CEDE2840}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetValueFromText", "GetMaxValue\GetValueFromText.csproj", "{A71C80FF-31E0-47ED-8492-7A6D79B901C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{750910E4-90FE-4A44-8FFB-7CD5CEDE2840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{750910E4-90FE-4A44-8FFB-7CD5CEDE2840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{750910E4-90FE-4A44-8FFB-7CD5CEDE2840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71C80FF-31E0-47ED-8492-7A6D79B901C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71C80FF-31E0-47ED-8492-7A6D79B901C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71C80FF-31E0-47ED-8492-7A6D79B901C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71C80FF-31E0-47ED-8492-7A6D79B901C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
