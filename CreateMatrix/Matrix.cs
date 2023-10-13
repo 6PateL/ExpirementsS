@@ -91,26 +91,24 @@ namespace CreateMatrix
             return matrix;
         }
 
-        public int[,] CreateIdentityMatrix()
+        public int[,] CreateIdentityMatrix(int rows, int columns)
         {
-            int rows = 3;
-            int columns = 3;
-            int zero = 0; 
-
             int[,] matrix = new int[rows, columns];
 
             for(int i = 0; i < rows; i++)
             {
                 for(int j = 0; j < columns; j++)
                 {
-                    matrix[i, j] = zero; 
+                    matrix[i, j] = 0; 
                 }
             }
-            matrix[0, 0] = 1;
-            matrix[1, 1] = 1;
-            matrix[2, 2] = 1; 
 
-            return matrix;
+            for(int i = 0; i < matrix.Length; i++)
+            {
+                matrix[i, i] = 1; 
+            }
+
+            return matrix; 
         }
     }
 }
